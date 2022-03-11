@@ -21,12 +21,17 @@ body {
   background-color: darkgray;
   padding: 20px 40px 20px;
   border-radius: 5px;
-  height: 180px;
+  height: auto;
   position: relative;
   background: #313a48;
   width: 90%;
   max-width: 540px;
   /* max-height: 280px; */
+}
+.container .images {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .container .head {
   font-size: 1em;
