@@ -29,14 +29,15 @@ body {
   display: grid;
   text-align: center;
   position: relative;
+  place-items: center;
+  place-content: center;
   /* max-height: 280px; */
 }
 .container .images {
   text-align: center;
   /* justify-content: center;
   align-items: center; */
-  place-items: center;
-  place-content: center;
+ 
 }
 .container .head {
   font-size: 1em;
