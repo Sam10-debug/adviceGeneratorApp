@@ -25,8 +25,8 @@ body {
   position: relative;
   background: #313a48;
   width: 90%;
-  max-width: 600px;
-  max-height: 250px;
+  max-width: 540px;
+  /* max-height: 280px; */
 }
 .container .head {
   font-size: 1em;
@@ -38,6 +38,9 @@ body {
   margin-bottom: 35px;
   font-weight: bold;
   color: #cee3e9;
+}
+.container .mobile{
+  padding-bottom: 50px;
 }
 .container .dice {
   width: 70px;
