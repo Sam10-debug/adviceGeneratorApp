@@ -26,12 +26,15 @@ body {
   background: #313a48;
   width: 90%;
   max-width: 540px;
+  display: grid;
   /* max-height: 280px; */
 }
 .container .images {
   text-align: center;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
+  place-items: center;
+  place-content: center;
 }
 .container .head {
   font-size: 1em;
