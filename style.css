@@ -27,6 +27,8 @@ body {
   width: 90%;
   max-width: 540px;
   display: grid;
+  text-align: center;
+  position: relative;
   /* max-height: 280px; */
 }
 .container .images {
@@ -48,7 +50,7 @@ body {
   color: #cee3e9;
 }
 .container .mobile{
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 .container .dice {
   width: 70px;
@@ -85,15 +87,14 @@ body {
   }
   .container {
     border-radius: 10px;
-    width: 700px;
+    max-width: 700px;
     padding: 30px 60px 30px;
-    height: 240px;
   }
   .container .advice {
     font-size: 1.5rem;
     margin-bottom: 35px;
   }
-  .container .dice {
-    left: 45%;
+  .container .desktop{
+    padding-bottom: 30px;
   }
 }
