@@ -37,7 +37,6 @@ body {
   text-align: center;
   /* justify-content: center;
   align-items: center; */
- 
 }
 .container .head {
   font-size: 1em;
@@ -50,7 +49,7 @@ body {
   font-weight: bold;
   color: #cee3e9;
 }
-.container .mobile{
+.container .mobile {
   padding-bottom: 30px;
 }
 .container .dice {
@@ -60,7 +59,7 @@ body {
   border-radius: 50%;
   position: absolute;
   bottom: 0;
-  left: 43%;
+  left: 41.3%;
   transform: translate(0%, 50%);
 }
 .container .dice img {
@@ -74,6 +73,12 @@ body {
   margin-top: 100px;
   color: white;
   font-size: 0.7rem;
+}
+.attribution .name{
+  color: green;
+}
+.attribution .name:hover{
+  color: lightgreen;
 }
 @media screen and (min-width: 600px) {
   .container .head {
@@ -95,7 +100,10 @@ body {
     font-size: 1.5rem;
     margin-bottom: 35px;
   }
-  .container .desktop{
+  .container .desktop {
     padding-bottom: 30px;
+  }
+  .container .dice{
+    left: 43.9%;
   }
 }
